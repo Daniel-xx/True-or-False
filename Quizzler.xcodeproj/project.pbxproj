@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3215F9D61F3F964C003000B6 /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215F9D51F3F964C003000B6 /* AdMob.swift */; };
+		3215F9E01F3FA773003000B6 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215F9DF1F3FA773003000B6 /* InfoVC.swift */; };
+		3215F9E21F3FAA46003000B6 /* ButtonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215F9E11F3FAA46003000B6 /* ButtonShape.swift */; };
+		328CCCE41F3F74F300AFAAB8 /* progresshud-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 328CCCE21F3F74F300AFAAB8 /* progresshud-error.png */; };
+		328CCCE51F3F74F300AFAAB8 /* progresshud-success.png in Resources */ = {isa = PBXBuildFile; fileRef = 328CCCE31F3F74F300AFAAB8 /* progresshud-success.png */; };
+		32A6E4521F44C14E00A3F959 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32A6E4511F44C14E00A3F959 /* click.wav */; };
+		32A6E4541F44C4DA00A3F959 /* done.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32A6E4531F44C4DA00A3F959 /* done.wav */; };
+		32BF2B251F3B938B00DF0F2B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF2B241F3B938B00DF0F2B /* Question.swift */; };
+		32BF2B271F3C75D500DF0F2B /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF2B261F3C75D500DF0F2B /* QuestionBank.swift */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
 		633646C41B8C657400FF45E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633646C21B8C657400FF45E2 /* Main.storyboard */; };
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
 		633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633646C71B8C657400FF45E2 /* LaunchScreen.xib */; };
+		D760B9A308FDC59BB9988C33 /* Pods_Quizzler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8FE68A3483FF8588B57E00 /* Pods_Quizzler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8FE68A3483FF8588B57E00 /* Pods_Quizzler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizzler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3215F9D51F3F964C003000B6 /* AdMob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
+		3215F9DF1F3FA773003000B6 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		3215F9E11F3FAA46003000B6 /* ButtonShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonShape.swift; sourceTree = "<group>"; };
+		328CCCE21F3F74F300AFAAB8 /* progresshud-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progresshud-error.png"; path = "Quizzler/progresshud-error.png"; sourceTree = "<group>"; };
+		328CCCE31F3F74F300AFAAB8 /* progresshud-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progresshud-success.png"; path = "Quizzler/progresshud-success.png"; sourceTree = "<group>"; };
+		32A6E4511F44C14E00A3F959 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		32A6E4531F44C4DA00A3F959 /* done.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = done.wav; sourceTree = "<group>"; };
+		32BF2B241F3B938B00DF0F2B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		32BF2B261F3C75D500DF0F2B /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		3FC4E3F53BDBF2E7D940B8A4 /* Pods-Quizzler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizzler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quizzler/Pods-Quizzler.debug.xcconfig"; sourceTree = "<group>"; };
+		633646B91B8C657400FF45E2 /* True or False.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "True or False.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		633646C01B8C657400FF45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		633646C31B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633646C51B8C657400FF45E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		633646C81B8C657400FF45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE2B2B107CFA0E053AA166C9 /* Pods-Quizzler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizzler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quizzler/Pods-Quizzler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D760B9A308FDC59BB9988C33 /* Pods_Quizzler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D20FA20E4DB4BEC2BAC42DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4E3F53BDBF2E7D940B8A4 /* Pods-Quizzler.debug.xcconfig */,
+				EE2B2B107CFA0E053AA166C9 /* Pods-Quizzler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		633646B01B8C657400FF45E2 = {
 			isa = PBXGroup;
 			children = (
+				328CCCE21F3F74F300AFAAB8 /* progresshud-error.png */,
+				328CCCE31F3F74F300AFAAB8 /* progresshud-success.png */,
 				633646BB1B8C657400FF45E2 /* Quizzler */,
 				633646BA1B8C657400FF45E2 /* Products */,
+				1D20FA20E4DB4BEC2BAC42DE /* Pods */,
+				EA53863EC403EDA5AACCABC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		633646BA1B8C657400FF45E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				633646B91B8C657400FF45E2 /* Quizzler.app */,
+				633646B91B8C657400FF45E2 /* True or False.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +102,19 @@
 			isa = PBXGroup;
 			children = (
 				633646C71B8C657400FF45E2 /* LaunchScreen.xib */,
+				32A6E4531F44C4DA00A3F959 /* done.wav */,
+				32A6E4511F44C14E00A3F959 /* click.wav */,
 				633646BD1B8C657400FF45E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA53863EC403EDA5AACCABC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8FE68A3483FF8588B57E00 /* Pods_Quizzler.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EBB1C72B1B946C4B0011F5C3 /* View */ = {
@@ -83,6 +129,9 @@
 		EBB1C72C1B946C530011F5C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				32BF2B241F3B938B00DF0F2B /* Question.swift */,
+				32BF2B261F3C75D500DF0F2B /* QuestionBank.swift */,
+				3215F9E11F3FAA46003000B6 /* ButtonShape.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -92,6 +141,8 @@
 			children = (
 				633646BE1B8C657400FF45E2 /* AppDelegate.swift */,
 				633646C01B8C657400FF45E2 /* ViewController.swift */,
+				3215F9D51F3F964C003000B6 /* AdMob.swift */,
+				3215F9DF1F3FA773003000B6 /* InfoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -99,21 +150,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		633646B81B8C657400FF45E2 /* Quizzler */ = {
+		633646B81B8C657400FF45E2 /* True or False */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Quizzler" */;
+			buildConfigurationList = 633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "True or False" */;
 			buildPhases = (
+				897AB20A24ACDEC91A90830C /* [CP] Check Pods Manifest.lock */,
 				633646B51B8C657400FF45E2 /* Sources */,
 				633646B61B8C657400FF45E2 /* Frameworks */,
 				633646B71B8C657400FF45E2 /* Resources */,
+				A0684E100C22CFDABD53E1FF /* [CP] Embed Pods Frameworks */,
+				BD60BE26E467C234F34A0895 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Quizzler;
+			name = "True or False";
 			productName = Quizzler;
-			productReference = 633646B91B8C657400FF45E2 /* Quizzler.app */;
+			productReference = 633646B91B8C657400FF45E2 /* True or False.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,6 +182,7 @@
 				TargetAttributes = {
 					633646B81B8C657400FF45E2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = QMGQR99D5K;
 						LastSwiftMigration = 0810;
 					};
 				};
@@ -145,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				633646B81B8C657400FF45E2 /* Quizzler */,
+				633646B81B8C657400FF45E2 /* True or False */,
 			);
 		};
 /* End PBXProject section */
@@ -155,20 +210,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328CCCE51F3F74F300AFAAB8 /* progresshud-success.png in Resources */,
 				633646C41B8C657400FF45E2 /* Main.storyboard in Resources */,
+				328CCCE41F3F74F300AFAAB8 /* progresshud-error.png in Resources */,
+				32A6E4521F44C14E00A3F959 /* click.wav in Resources */,
 				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
+				32A6E4541F44C4DA00A3F959 /* done.wav in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		897AB20A24ACDEC91A90830C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0684E100C22CFDABD53E1FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quizzler/Pods-Quizzler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD60BE26E467C234F34A0895 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quizzler/Pods-Quizzler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		633646B51B8C657400FF45E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BF2B251F3B938B00DF0F2B /* Question.swift in Sources */,
+				32BF2B271F3C75D500DF0F2B /* QuestionBank.swift in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
+				3215F9D61F3F964C003000B6 /* AdMob.swift in Sources */,
+				3215F9E01F3FA773003000B6 /* InfoVC.swift in Sources */,
+				3215F9E21F3FAA46003000B6 /* ButtonShape.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +396,15 @@
 		};
 		633646D91B8C657400FF45E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC4E3F53BDBF2E7D940B8A4 /* Pods-Quizzler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QMGQR99D5K;
 				INFOPLIST_FILE = Quizzler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielJacob.TorF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -299,12 +414,15 @@
 		};
 		633646DA1B8C657400FF45E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2B2B107CFA0E053AA166C9 /* Pods-Quizzler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QMGQR99D5K;
 				INFOPLIST_FILE = Quizzler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielJacob.TorF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
@@ -323,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Quizzler" */ = {
+		633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "True or False" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633646D91B8C657400FF45E2 /* Debug */,

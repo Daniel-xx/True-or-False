@@ -3,10 +3,11 @@
 //  Quizzler
 //
 //  Created by Angela Yu on 25/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
+//  Copyright © 2017 Daniel Travers. All rights reserved.
 //
 
 import UIKit
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
   
-        
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-6962486061492477~8165124744")
         // Override point for customization after application launch.
         return true
     }
